@@ -1,0 +1,221 @@
+/* Blog CSS */
+
+/* SETTING DEFAULT PROPERTIES OF ALL BROWSERS */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background: url('/images/weather.png');
+}
+
+/* FOR HEADER */
+#header {
+	width: 100%;
+	height: 80px;
+	background-color:#f2f2f2 ;
+    position: fixed;
+    top: 0;
+	z-index: 1;
+}
+
+.blog-title {
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px black;
+    letter-spacing: 0.5px;
+    color:#74afad;
+    font-weight: bold;
+}
+
+.blog-title h1 {
+	padding-bottom: 20px;
+}
+
+#header nav {
+	margin-top: 35px;
+}
+
+#header nav ul li {
+	display: inline;
+}
+
+#header nav ul li a {
+	padding: 10px 20px;
+	margin-left: 10px;
+	text-decoration: none;
+	text-align: center;
+	background-color:#4d90fe ;
+	font-size: 20px;
+	color: white;
+	border-radius: 5px;
+}
+
+#header nav ul li a:hover {
+		background-color: #5c8a8a;
+}
+
+#header nav ul.navigation {
+	float: right;
+	padding-right: 25px;
+}
+
+.clear {
+	clear: both;
+}
+
+/* FOR CAROUSEL */
+.carousel-inner > .item > img,
+  		.carousel-inner > .item > a > img {
+      		width: 70%;
+      		margin: auto;
+  }
+
+#caraousel {
+	width: 100%;
+	height: 700px;
+	background-color: white;
+}
+
+#myCarousel {
+    height: 620px;
+    z-index: 0;
+}
+
+.item {
+    height: 700px;
+}
+/* MAIN CONTENT */
+
+#featured{
+    width: 1000px;
+    height: 700px;+
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.featured_blog{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    
+    background-color: #f2f2f2;
+    border: dashed 3px green;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+@keyframes box{
+    from { position: relative }
+    to { position: relative;top: -7px; border: solid 3px green;
+        box-shadow:10px 10px 3px black } 
+}
+.featured_blog:hover{
+    animation-name: box;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    /*transition: all 0.5s;
+    -webkit-transition:all 0.5s;*/
+}
+#read_more{
+    opacity: 0.9;
+    position:absolute;
+    top:250px;
+    left:140px;
+    background-color:#4d90fe;
+    text-decoration: none;
+    padding:5px;
+    color:white;
+    font-family: open-sans,sans-serif;
+    font-size: 20px;
+    
+}
+#blog1{
+    float:left;
+}
+#blog2{
+    float:right;
+}
+#blog3{
+    float:left;
+}
+#blog4{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.title{
+    text-align: center;
+    border-bottom: solid 3px #6495ED;
+    margin: 5px 10px 5px;
+    font-size: 35px;
+    font-family: Comic Sans MS,Courier Prime Sans, sans-serif;
+}
+.intro{
+    font-size: 20px;
+    font-family: cursive,sans-serif;
+}
+
+/* FOOTER */
+#footer {
+	width: 100%;
+	height: 200px;
+	clear: both;
+	background-color: #293d3d;
+}
+
+
+
+#footer ul {
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+#footer ul li{
+    display: inline;
+}
+
+#footer ul li a {
+    padding: 10px;
+}
+
+#footer p {
+	color: white;
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#footer h6 {
+    position: relative;
+    color: cyan;
+    text-align: center;
+    top: 50px;
+    font-size: 25px;
+    
+}
+
+.img-radius {
+    border-radius: 5px;
+}
+
+.profile-link {
+    color: white;
+}
+
+.profile-link:hover {
+    color:cyan;
+}
+
+
+
+
