@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*Main contenet*/
 #post-container {
     position: relative;
     top: 60px;
@@ -18,59 +18,43 @@
     left: 100px;
     width: 800px;
     height: 900px;
-    border: solid 2px red;
+    border: solid 2px grey;
+    background: rgba(255,255,255,1);
 }
 
-.blog-post h1 {
-    font-size: 100px;
+.title {
+    font-size: 70px;
     text-align: center;
     font-family: cursive;
-    color: brown;
+    color: indianred;
     padding: 20px;
     margin: 10px;
+    text-transform: capitalize;
+    border-bottom: solid 2px grey;
 }
 
-small.date {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    text-align: left;
-    color: crimson;
-    margin: 50px;
-    padding: 20px;
+.post-meta small{
+    color:#888;
+    margin:20px;
+    padding:10px;
+    font-size: 15px;
+}
+.author a{
+    text-decoration: none;
+    color:#888;
+}
+.categories a{
+    text-decoration: none;
+    color:#888;
 }
 
-small.author {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
-    text-align: center;
-    color: crimson;
-    margin: 50px;
-    padding: 20px;
-}
-
-small.categories {
-    font-size: 20px;
-    font-family: cursive;
-    text-align: right;
-    color: crimson;
-    margin: 50px;
-    padding: 20px;
-}
-
-small.categories a {
-    font-weight: bold;
-    color: crimson;
-}
 
 .para {
     margin: 20px;
     padding: 10px 20px;
-    color: brown;
+    color: #50525a;
     font-size: 20px;
-    font-family: sans-serif;
-    
+    font-family: areial,sans-serif;  
 }
 
 

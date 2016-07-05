@@ -4,104 +4,72 @@
 	<title>Blog</title>
 
 	<meta charset="utf-8">
-	<meta name="author" content="Arjun Kumar">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" type="text/css" href="css/main_style.css">
-	
-	 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-	
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
 	<div id="header">
-			
 		<div class="blog-title">
-			<h1>My Blog</h1>
+			<h1><img src="images/icon.png" width="60px" height="60px"> My Blog</h1>
 		</div>	
-
-		<nav>
+			<nav>
 			<ul class="navigation">
-				<li><a href="post1.html">Home</a></li>
+				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
-				<li><a href="#">Categories</a></li>
+				<li class="dropdown"><a href="#" class="dropbtn">Categories</a>
+                    <div class="drop-content">
+                        <a href=#>LINK1</a>
+                        <a href=#>LINK2</a>
+                        <a href=#>LINK3</a>
+                    </div>
+                </li>
 			</ul>
 		
 		</nav>
-
+    </div>
+    <br><br><br><br><br>
 		<div class="clear"></div>
-
-	</div>
-
-	<div id="caraousel">
-        <br><br><br><br>
-
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-		    <ol class="carousel-indicators">
-		      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		      <li data-target="#myCarousel" data-slide-to="1"></li>
-		      <li data-target="#myCarousel" data-slide-to="2"></li>
-		      <li data-target="#myCarousel" data-slide-to="3"></li>
-		    </ol>
-
-		    <!-- Wrapper for slides -->
-		    <div class="carousel-inner" role="listbox">
-		      <div class="item active">
-		        <img src="images/wevdeveloper.jpg" alt="Chania" width="300" height="150px">
-		      </div>
-
-		      <div class="item">
-		        <img src="images/images_005.jpg" alt="Chania" width="284px" height="178px">
-		      </div>
-		    
-		      <div class="item">
-		        <img src="images/images_006.jpg" alt="Flower" width="315" height="160">
-		      </div>
-
-		      <div class="item">
-		        <img src="images/images_006.png" alt="Flower" width="299" height="168">
-		      </div>
-		    </div>
-
-    		<!-- Left and right controls -->
-		    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		      <span class="sr-only">Previous</span>
-		    </a>
-		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		      <span class="sr-only">Next</span>
-		    </a>
-  		</div>
-		
-	</div>
 	
-	
+    <div class="crousel">
+      <div><img src="images/lifestyle.jpg" width="350px" height="300px"></div>
+      <div><img src="images/support.jpg" width="350px" height="300px"></div>
+      <div><img src="images/mobile-ecommerce-2016.jpg" width="350px" height="300px"></div>
+    </div>
+    
 	<div id="featured">
         <article class="featured_blog" id="blog1">
-            <h2 class="title">Blog 1</h2>
-           <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada vestibulum risus dictum finibus. Nullam eget tincidunt nisl.</p>
+            <h2 class="title"><img src="images/customer-perception.png" width="300px"  height="150px">
+            </h2>
+           <p class="intro">Relaxing for few minutes can give you more output and better throughput
+            </p>
+            <a class="read_more" href="post1.html">Read more</a>
         </article> 
         <article class="featured_blog" id="blog2">
-            <h2 class="title">Blog 2
+            <h2 class="title"><img src="images/java-blog.jpg" width="300px"  height="150px">
             </h2>
-           <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada vestibulum risus dictum finibus. Nullam eget tincidunt nisl. .</p>
+           <p class="intro">Growth of java in industry and use of javascript application throughtout the web .</p>
+            <a class="read_more" href="post2.html">Read more</a>
         </article> 
         <article class="featured_blog" id="blog3">
             
-            <h2 class="title">Blog 3
+            <h2 class="title"><img src="images/search.png" width="300px"  height="150px">
             </h2>
-           <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada vestibulum risus dictum finibus. Nullam eget tincidunt nisl. aliquet.</p>
+           <p class="intro">Search engines as the lifeline of web and search engine optization for websites </p>
+            <a class="read_more" href="post3.html">Read more</a>
         </article> 
         
         <article class="featured_blog" id="blog4">
-            <h2 class="title">Blog 4
+            <h2 class="title"><img src="images/lean-product-header.png" width="300px"  height="150px">
             </h2>
-           <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada vestibulum risus dictum finibus. Nullam eget tinciddunt nisl..</p>
+           <p class="intro">keep everything oraganised and doucmeneted for better readilibailty and for future refrences</p>
+            <a class="read_more" href="post4.html">Read more</a>
         </article> 
         
     </div>
@@ -119,11 +87,12 @@
 			</ul>
 		</nav>
 
-		<p>&copy; - <a href="http://github.com/arjun1321" class="profile-link">Arjun Kumar</a>, <a href="http://github.com/alpha556" class="profile-link">Manpreet Singh</a> 2016</p>
+		<p>&copy; 2016 - <a href="http://github.com/arjun1321" class="profile-link">Arjun Kumar</a>, <a href="http://github.com/alpha556" class="profile-link">Manpreet Singh</a> </p>
 
 	</div>
     
-    <!--<sciript tupe="text/javascript" src="js/jquery.min.js"></sciript>
-    <script type="text/javascript" src="js/blog.js"></script>-->
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/blog.js"></script>
+         </body>
 </html>

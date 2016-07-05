@@ -1,53 +1,22 @@
-/* Blog CSS */
-
-/* SETTING DEFAULT PROPERTIES OF ALL BROWSERS */
-* {
-	margin: 0;
-	padding: 0;
-}
 body{
-    background-image:  url('/images/weather.png');
-    background-repeat: repeat;
+    background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
 }
-/*crousel*/
-
-.crousel{
-    margin: auto;
-    width: 400px;
-}
-.crousel div{
-    width: 350px;
-    margin:auto;
-}
-.crousel div img{
-    display: block;
-    margin: auto;
-}
-
-
-/* MAIN CONTENT */
-
 #featured{
     width: 1000px;
-    height: 700px;
-    margin:auto;
+    height: 800px;
 }
 .featured_blog{
     width: 400px;
     height: 300px;
     margin: 20px;
     padding: 20px;
+    
     background-color: #f2f2f2;
     border: dashed 3px green;
     border-radius: 20px;
     box-shadow: 10px 10px 10px black;
-}
-.featured_blog p{
-    text-overflow: ellipsis;
-    overflow: hidden;
-    color: dimgrey;
-    margin-top: 15px;
-    text-align: center;
 }
 @keyframes box{
     from { position: relative }
@@ -62,22 +31,18 @@ body{
     /*transition: all 0.5s;
     -webkit-transition:all 0.5s;*/
 }
-.read_more{
-    opacity: 0.8;
-    position:relative;
+#read_more{
+    opacity: 0.9;
+    position:absolute;
+    top:250px;
+    left:140px;
     background-color:#4d90fe;
     text-decoration: none;
     padding:5px;
     color:white;
     font-family: open-sans,sans-serif;
     font-size: 20px;
-    display: none; 
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    width: 100px;
-   
+    
 }
 #blog1{
     float:left;
@@ -96,14 +61,45 @@ body{
 }
 .title{
     text-align: center;
+    border-bottom: solid 3px #6495ED;
     margin: 5px 10px 5px;
-    border-bottom: #f1f1f1;
+    font-size: 35px;
+    font-family: Comic Sans MS,Courier Prime Sans, sans-serif;
 }
 .intro{
-    font-size: 15px;
+    font-size: 20px;
     font-family: cursive,sans-serif;
 }
-
-
-
+footer{
+    border: solid 1px black;
+    margin-bottom:0px;
+    background: #293d3d;
+    color:grey;
+    height:200px;
+}
+.footer_title{
+    color:cyan;
+    text-decoration: underline
+}
+#about{
+    float:left;
+    height: inherit;
+    width: 500px;
+    margin:5px 20px 5px 10px;
+}
+#category{
+    height: inherit;
+    width: 500px;
+    margin:auto;
+}
+#follow{
+    float:right;
+    height: inherit;
+    width: 500px;
+}
+#follow li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
 
